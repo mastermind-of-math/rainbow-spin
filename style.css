@@ -1,0 +1,88 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+}
+
+.heading_div{
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+}
+
+.heading_div2{
+    font-size: 18px ;
+}
+
+.result_para_tag{
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+}
+
+body{
+    font-family: monospace;
+    font-size: 21px;
+    animation-name: spin;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background: conic-gradient(red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red);
+}
+
+.label{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+
+.title{
+    margin:30px;
+}
+
+#objtext{
+    white-space: pre-line;
+}
+
+.infotext{
+    margin-left:330px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-right:40px;
+    padding-left: 40px;
+    padding-top:10px;
+    border-radius:15px;
+    padding-bottom:10px;
+    margin-bottom: 20px;
+}
+
+#h3{
+    font-size: 30px;
+}
+
+.copyright_footer{
+    bottom: 0;
+    position: fixed;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding:5px;
+    font-size:19px;
+}
+
+canvas{
+    border-style: solid;
+    margin-top: 200px;
+}
+
+@keyframes spin{
+    11% {background: conic-gradient(red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red);}
+    22% {background: conic-gradient(orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red, orangered);}
+    33% {background: conic-gradient(orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red, orangered, orange);}
+    44% {background: conic-gradient(yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red, orangered, orange, yellow);}
+    55% {background: conic-gradient(rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red, orangered, orange, yellow, rgb(29, 241, 29));}
+    66% {background: conic-gradient(rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216));}
+    77% {background: conic-gradient(rgb(65, 103, 226), rgb(161, 34, 161), red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226));}
+    88% {background: conic-gradient(rgb(161, 34, 161), red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161));}
+    100% {background: conic-gradient(red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(161, 34, 161), red);}
+}

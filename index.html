@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Real Time Image Identification App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h3 class="title"><h3 id="h3">Real Time Image Identification App</h3>
+                <center>
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12 infotext">
+                        We are using Mobilenet as a Model 
+                        <br>
+                        <div class="traintext">Mobilenet model is trained on over 1.3 million objects</div>
+                    </div>
+                </center>
+                <br>
+            </h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="label">Object: 
+                <span id="objtext"> </span> 
+            </p>
+            <br>
+            <br>
+            <p class="label">Accuracy: 
+                <span id="acctext"> </span> 
+            </p>
+        </center>
+        <div class="copyright_footer"> By Owen
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
